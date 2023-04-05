@@ -31,3 +31,26 @@ class 속성을 많이 활용한다.
 텍스트의 일부 영역을 선택할 수 있는 태그 
 <br>
 div태그와 더불어 class 속성을 많이 활용한다.
+
+<hr>
+
+### og tag
++ og 태그는 웹 페이지의 간략보기를 하게 해주는 프로토콜이다.<br> : 미리보기
++ head태그에서 meta태그로 작성을 한다
++ 속성은 title, description, image가 있다.
+
+<hr>
+
+### 레이아웃
+#### header, nav, section, footer
++ 용도별 태그는 영역 분할 뿐만 아니라 기계의 웹 페이지 해석을 도움.
++ semantic: 의미가 잘 전달되는 웹
+
+<hr>
+
+## Github Pages 배포
++ Step 1: 원격 저장소 만들기<br>
+'계정명.github.io'라는 이름으로 repository만들기
++ Step 2: 새로운 폴더에 HTML 파일 만들기
++ 첫 html파일의 명은 index.html로 해야한다.
++ repository 명이 html의 주소이다.
