@@ -1,6 +1,7 @@
 # HTML
 + 태그<>를 다는 것을 markup이라고 한다.
 <br>
+
 + 여는 태그에서 HTML속성을 설정할 수 있다. <br> ex) <여는 태그 (속성) (속성)>내용</닫는 태그>
 + 주석은 commend+/로 쉽게 생성할 수 있다.<br> 주석을 남용하면 안된다. 브라우저가 주석을 다 가져오기 때문에 사용에 유의를 해야한다.
 + Boilerplate: 언어 혹은 프레임워크 마다 반복적으로 사용되는 구성들
@@ -12,9 +13,11 @@
 ### block요소들은 브라우저의 넓이 만큼 넓이를 차지한다.
 + h1 ~ h6 태그
 <br> 
+
 h 태그(heading)는 글씨를 키우려는 목적으로 사용 X
 + p 태그 (paragraph)
 <br>
+
 + ol (ordered line),ul (unorderd line) 태그 
 + li (list line) 태그
 + div 태그
