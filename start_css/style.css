@@ -1,0 +1,86 @@
+/*css에서 태그(ex: h1)는 선택자(selector)라고 부름*/
+/*특정 태그 전체에 적용*/
+/* 
+h1 {
+    color==속성(property)  선언 (declaration)
+    color: brown;
+} */
+
+/* 요소 전체에 적용 - universal 
+ * {
+    color: brown;
+} */
+
+/* 여러 종류 태그에 적용
+h2, p {
+    color: brown;
+} */
+
+/* 특정 클래스에 해당되는 요소에 대해 적용
+//coding이라는 클래스 명을 가진 요소에 css적용
+.coding{
+    color:brown;
+} */
+/* //h2태그에 해당하는 coding클래스를 가진 요소에 대한 적용
+h2.coding{
+    color:brown;
+} */
+
+
+/* 특정 아이디에 해당되는 요소에 대해 적용
+#original{
+    color:brown;
+}  */
+/* // 특정 아이디가 명시된 특정 태그에 대해 적용
+//h2태그에 original아이디를 가진 요소에 대한 적용
+h2#original{
+    color:brown;
+} */
+
+/* // 부모 요소 내의 특정 자식 요소
+// div 아래에 있는 p태그에 대한 적용 
+div p{
+    color:brown;
+} */
+
+
+
+/* 폭포수의 의미
+아래의 경우엔 마지막에 정의된 red색상이 h1에 적용된다.
+
+h1{
+    color:brown;
+}
+
+h1{
+    color:red;
+} */
+
+/* 상속: 부모요소의 CSS규칙을 자식요소가 상속을 받아 적용됨
+아래의 경우엔 div의 안에 있는 요소인 p,h2요소들도 brown색이 적용된다.
+div{
+    color:brown;
+}
+p.coding{
+    color:blue;
+}
+
+자식요소가 CSS규칙을 가지고 있다면 이를 우선하여 적용 
+위의 경우 p태그는 파란색을 가지고 있다.*/
+
+/* 우선순위 점수 
+style속성으로 선언 :1000
+id로 선언: 100
+class로 선언:10
+태그이름으로 선언:1 */
+
+
+/* 아래의 경우 우선순위는 .coding의 우선순위가 더 높다
+h2{
+    color: brown;
+}
+.coding{
+    color:blue;
+} */
+
+
