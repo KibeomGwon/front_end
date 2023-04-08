@@ -16,12 +16,18 @@ a:link, a:visited{
 .container{
     width: 960px;
     margin: 0 auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
 }
 /* navigation bar */
 nav {
     height: 80px;
     background-color: rgb(0, 191, 255);
     line-height: 80px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
 }
 
 nav::after{
@@ -58,6 +64,9 @@ ul.nav-btn > li {
     position: relative;
     height: 600px;
     text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
 }
 
 .hd-title {
@@ -65,10 +74,14 @@ ul.nav-btn > li {
     margin-top: 0;
     margin-bottom: 20px;
     padding-top: 200px;
+    border-style: solid;
+    border-width: 5px;
 }
 
 .hd-content {
     font-size: 25px;
+    border-style: solid;
+    border-width: 5px;
 }
 
 .hd:before {
@@ -97,13 +110,19 @@ ul.nav-btn > li {
     text-align: center;
     padding: 100px 0;
     background-color: rgb(189, 236, 236);
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
 }
 
 
 .sec article {
     float: left;
-    width: 300px;
+    width: 280px;
     margin-right: 30px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
 }
 
 .sec article:last-child {
@@ -117,12 +136,13 @@ ul.nav-btn > li {
 
 .card-img {
     overflow: hidden;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 
 .sec article p {
     color:rgb(0, 191, 255)
+
 }
 
 .sec::after{

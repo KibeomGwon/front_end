@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* nav  */
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+.nav-left{
+    float: left;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
+}
+.nav-list > li {
+    margin-right: 20px;
+}
+.nav-list > li a {
+    color: grey;
+    font-size: 14px;
+}
+.nav-list > li a span {
+    color: rgb(23, 163, 163);
+    font-size: large;
+    font-weight: bolder;
+}
+.nav-right {
+    float: right;
+    display: flex;
+}
+.nav-right div {
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.nav-login-btn {
+    background-color: rgb(23, 163, 163);
+}
+.nav-login-btn a {
+    color: white;
+}
+.nav-register-btn {
+    background-color: rgb(224, 224, 224);
+}
+
+.nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* header hd */
+
+.hd {
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    
+}
+
+.hd-logo {
+}
+
+
